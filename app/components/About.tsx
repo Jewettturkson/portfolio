@@ -9,7 +9,7 @@ const SOCIALS = [
   { label: "LinkedIn", short: "in", href: "https://www.linkedin.com/in/jewett-turkson-5b223728b/" },
   { label: "GitHub", short: "gh", href: "https://github.com/Jewettturkson" },
   { label: "Email", short: "@", href: "mailto:akwasiturkson1@gmail.com" },
-  { label: "Resume", short: "cv", href: "#" }, // TODO: link resume PDF
+  { label: "Resume", short: "cv", href: "./resume.pdf" },
 ];
 
 const SERVICES = [

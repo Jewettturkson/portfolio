@@ -8,11 +8,11 @@ export const metadata: Metadata = {
     template: "%s | Jewett Turkson",
   },
   description:
-    "Full-stack developer who ships AI-powered products. CS @ Wilmington University '28. CTO at ENTURK, founder of PrepPal.AI. Open to software engineering internships.",
+    "Full-stack developer who ships AI-powered products. CS @ Wilmington University '28. CTO at ENTURK, founder of nkae. Open to software engineering internships.",
   openGraph: {
     title: "Jewett Turkson · Full-Stack Developer",
     description:
-      "Full-stack developer who ships AI-powered products. Builder of TurkNode and PrepPal.AI.",
+      "Full-stack developer who ships AI-powered products. Builder of TurkNode and nkae.",
     type: "website",
     locale: "en_US",
   },
