@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://jewettturkson.dev"), // update to your purchased domain
+  metadataBase: new URL("https://jewettturkson.vercel.app"),
   title: {
     default: "Jewett Turkson · Full-Stack Developer",
     template: "%s | Jewett Turkson",
