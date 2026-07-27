@@ -47,9 +47,21 @@ export default function About() {
               transition={{ duration: 0.7, delay: 0.3 }}
               className="text-base leading-relaxed text-neutral-600 md:text-lg"
             >
-              I started building software in Accra, Ghana. Today I study computer science at
-              Wilmington University (&rsquo;28), serve as CTO at ENTURK, and run PrepPal.AI. With
-              every project, I push the work to a new standard, always putting quality first.
+              I started in architecture, learning to think in systems and design with purpose.
+              Software won me over when I saw how far an idea could scale beyond a single
+              building. Today I study computer science with an AI concentration at Wilmington
+              University (&rsquo;28), serve as CTO at ENTURK, and build nkae.
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-60px" }}
+              transition={{ duration: 0.7, delay: 0.45 }}
+              className="text-base leading-relaxed text-neutral-600 md:text-lg"
+            >
+              From Accra to Philadelphia, adaptability is the throughline. Off the keyboard I
+              shoot photography and video, and that eye for story shapes how I build: products
+              should work, read clearly, and feel like something.
             </motion.p>
             <motion.span
               initial={{ opacity: 0 }}
