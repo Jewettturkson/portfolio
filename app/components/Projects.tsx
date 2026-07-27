@@ -28,6 +28,7 @@ const PROJECTS: Project[] = [
     href: "https://apps.apple.com/us/app/tcc-field-layout-pro/id6766678029",
     gradient: "from-[#07091c] to-[#e85000]",
     caption: "MUTCD work-zone calculator · 5.0★ App Store",
+    image: "./previews/tcc.webp",
   },
   {
     name: "nkae",
