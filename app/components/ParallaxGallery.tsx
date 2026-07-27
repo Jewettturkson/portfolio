@@ -11,7 +11,7 @@ const COLUMNS: Photo[][] = [
     { src: "./photos/p2.webp", alt: "Jewett in a navy pinstripe shirt" },
     { src: "./photos/p3.webp", alt: "Jewett in a striped sweater" },
   ],
-  [{ src: "./photos/p0.webp", alt: "Jewett at 901 Market Street, Philadelphia" }],
+  [{ src: "./photos/p0.webp", alt: "Jewett out in the city" }],
   [
     { src: "./photos/p4.webp", alt: "Jewett in a tropical shirt" },
     { src: "./photos/p1.webp", alt: "Jewett crossing the street in Center City" },
@@ -53,7 +53,7 @@ export default function ParallaxGallery() {
       </div>
       {/* location chip */}
       <div className="pointer-events-none absolute bottom-6 left-1/2 -translate-x-1/2 rounded-full bg-[#141516]/85 px-5 py-2.5 font-mono text-[10px] uppercase tracking-[0.2em] text-white backdrop-blur">
-        Philadelphia, PA · Accra, GH
+        New Castle, DE · Accra, GH
       </div>
     </div>
   );

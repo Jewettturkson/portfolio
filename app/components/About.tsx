@@ -59,7 +59,7 @@ export default function About() {
               transition={{ duration: 0.7, delay: 0.45 }}
               className="text-base leading-relaxed text-neutral-600 md:text-lg"
             >
-              From Accra to Philadelphia, adaptability is the throughline. Off the keyboard I
+              From Accra to New Castle, Delaware, adaptability is the throughline. Off the keyboard I
               shoot photography and video, and that eye for story shapes how I build: products
               should work, read clearly, and feel like something.
             </motion.p>

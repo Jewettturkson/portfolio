@@ -12,7 +12,7 @@ function RotatingBadge() {
           <path id="circlePath" d="M 50,50 m -38,0 a 38,38 0 1,1 76,0 a 38,38 0 1,1 -76,0" />
         </defs>
         <text className="fill-[var(--dark)] text-[10.5px] uppercase tracking-[0.18em]">
-          <textPath href="#circlePath">Located in Philadelphia · Open to internships ·</textPath>
+          <textPath href="#circlePath">Based in New Castle, Delaware · Open to internships ·</textPath>
         </text>
       </svg>
     </div>
