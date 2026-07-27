@@ -1,0 +1,55 @@
+@import url("https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f4f4f4;
+  --dark: #1c1d20;
+  --accent: #455ce9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--dark);
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.marquee-track {
+  animation: marquee 18s linear infinite;
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.spin-slow {
+  animation: spin-slow 14s linear infinite;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track,
+  .spin-slow {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
