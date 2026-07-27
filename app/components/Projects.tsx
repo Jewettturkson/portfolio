@@ -39,6 +39,14 @@ const PROJECTS: Project[] = [
     image: "./previews/nkae.webp",
   },
   {
+    name: "MEND Journey",
+    category: "Nonprofit Platform · Astro + Netlify · Live",
+    href: "https://mendjourney.org",
+    gradient: "from-[#241536] to-[#c9a227]",
+    caption: "Two production sites + automated email pipeline",
+    image: "./previews/mend.webp",
+  },
+  {
     name: "Summa Ops Dashboard",
     category: "Full-Stack · Analytics",
     href: "https://github.com/Jewettturkson/enturk-ag",
