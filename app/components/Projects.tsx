@@ -46,6 +46,22 @@ const PROJECTS: Project[] = [
     caption: "Two production sites + automated email pipeline",
     image: "./previews/mend.webp",
   },
+  {
+    name: "First Choice Realtors",
+    category: "Real Estate Platform · Client · Live",
+    href: "https://www.firstchoicerealtors.estate",
+    gradient: "from-[#0e2233] to-[#c9962c]",
+    caption: "Ghana property platform · listings, live map, mortgage tools",
+    image: "./previews/firstchoice.webp",
+  },
+  {
+    name: "ICGC Exaltation Temple",
+    category: "Church Website · Client · Live",
+    href: "https://icgcdelaware.org",
+    gradient: "from-[#1a1208] to-[#b8860b]",
+    caption: "Full church site · icgcdelaware.org",
+    image: "./previews/icgc.webp",
+  },
 ];
 
 export default function Projects() {
