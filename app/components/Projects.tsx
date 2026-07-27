@@ -23,20 +23,20 @@ const PROJECTS: Project[] = [
     image: "./previews/turknode.webp",
   },
   {
-    name: "TCC Field Layout Pro",
-    category: "Flutter · Client app · Live on both stores",
-    href: "https://apps.apple.com/us/app/tcc-field-layout-pro/id6766678029",
-    gradient: "from-[#07091c] to-[#e85000]",
-    caption: "MUTCD work-zone calculator · 5.0★ App Store",
-    image: "./previews/tcc.webp",
-  },
-  {
     name: "nkae",
     category: "Founder · AI Study App · Live",
     href: "https://nkae.study",
     gradient: "from-[#17141d] to-[#5b4be0]",
     caption: "Remember what you learn · nkae.study",
     image: "./previews/nkae.webp",
+  },
+  {
+    name: "TCC Field Layout Pro",
+    category: "Flutter · Client app · Live on both stores",
+    href: "https://apps.apple.com/us/app/tcc-field-layout-pro/id6766678029",
+    gradient: "from-[#07091c] to-[#e85000]",
+    caption: "MUTCD work-zone calculator · 5.0★ App Store",
+    image: "./previews/tcc.webp",
   },
   {
     name: "MEND Journey",
