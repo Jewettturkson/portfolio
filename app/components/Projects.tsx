@@ -46,13 +46,6 @@ const PROJECTS: Project[] = [
     caption: "Two production sites + automated email pipeline",
     image: "./previews/mend.webp",
   },
-  {
-    name: "Summa Ops Dashboard",
-    category: "Full-Stack · Analytics",
-    href: "https://github.com/Jewettturkson/enturk-ag",
-    gradient: "from-[#052e2b] to-[#0f766e]",
-    caption: "KPI tracking · Next.js + FastAPI",
-  },
 ];
 
 export default function Projects() {
